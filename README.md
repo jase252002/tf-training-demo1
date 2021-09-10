@@ -18,12 +18,7 @@ The demonstration will deploy the following using Terraform
     8. IAM Policy
     9. Deploy and configure a Prometheus server in the private subnet
     10. Deploy and configure a NGINX server with reverse proxy rule to access the Prometheus server in the public subnet
-3. Azure components
-    1. Create a resource group
-    2. Create a storage account
-    3. Setup blob storage
-    4. crete a container for holding the state file
-4. Utilise the Azure container for Terraform remote state
+3. Utilise the S3 bucket for Terraform remote state
 
 ### Known issues
 None
@@ -34,3 +29,4 @@ None presently
 ## Author
 **Dave Hart**
 [link to blog!](https://davehart.co.uk)
+## Editied by Jason Sykes
